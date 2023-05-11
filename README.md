@@ -27,6 +27,7 @@ Numericamente, constata-se que o período de oscilação desta onda é de $2\pi$
 Casoa a partícula esteja livre, a sua função de onda será uma interposição de ondas planas (i.e. onda gaussiana). A animação abaixo simula uma onda da forma
 $$\Psi(x,t=0) = (2\pi)^{-1/4}\ \exp(5\textrm{i}(x+10))\ \exp\left(-\frac{(x+10)^2}{4}\right),$$
 isto é, totalmente normalizada ($\int |\Psi(x,0)|^2\ \text{d}x$ = 1) e com momento inicial $p_0 = k_0 \hbar = 5$, em unidades normalizadas. Há barreiras físicas infinitas em $x=\pm 30$ para que as reflexões nas paredes sejam totalmente conservativas.
+
 ![ex2_livre](https://github.com/vinmir/MQC_SchrDep/assets/133194350/093727bb-18ea-4cb9-93d5-7766ffc77d46)
 
 A evolução temporal da função de onda "alarga" o pacote gaussiano, aumentando a incerteza da localização da partícula ($\Delta x$ aumenta) enquanto concomitantemente reduz a rapidez de deslocamento da onda. Tal redução é gradualmente menor com o tempo ($\Delta p$ diminui). As relações descritas entre $\Delta x$ e $\Delta p$ são previstas pelo Princípio da Incerteza.
