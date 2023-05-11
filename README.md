@@ -1,6 +1,12 @@
 # MQC_SchrDep
 Projeto de Mecânica Quântica Computacional em evolução temporal de funções de onda.
 
+# Requisitos
++ gfortran 2008+
++ Python: Matplotlib, Numpy e Jupyter (Lab)
+
+Para compilar e executar o código-fonte, consulte os scripts bash em `prog/ex_{}/`. Do contrário, compile com gfortran normalmente, respeitando a ordem dos modules. Sugiro fortemente o uso de VS-Code com a extensão Modern Fortran e o FortLS.
+
 # Discussões-chave
 ## Potencial harmônico, estado coerente
 A equação de Schrödinger independente do tempo pode ser utilizada para mapear numerica ou analiticamente os autoestados associados ao potecial harmônico (constantes $m,w,\hbar$ normalizadas):
